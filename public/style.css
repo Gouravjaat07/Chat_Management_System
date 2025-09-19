@@ -1,0 +1,87 @@
+/* Reset & base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+    background: #f0f2f5;
+    color: #333;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #075e54;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Chat container */
+.chat {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 90%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.2s ease-in-out;
+}
+
+.chat:hover {
+    transform: scale(1.02);
+}
+
+/* From & To details */
+.chat p {
+    margin: 5px 0;
+}
+
+.chat p:first-child {
+    font-weight: bold;
+    color: #128c7e;
+}
+
+.chat p:last-child {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Message box */
+.message {
+    background: #dcf8c6;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #333;
+    max-width: 90%;
+    word-wrap: break-word;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .chat {
+        width: 100%;
+        padding: 12px;
+    }
+}
+
+form button {
+    width: 80px;
+    color: white;
+    background-color: green;
+    font-size: 15px;
+    border-radius: 7px;
+    appearance: none;
+    box-shadow: 2px 3px 5px black;
+}
+form button {
+    box-shadow: p5x 5px 10px black;
+}

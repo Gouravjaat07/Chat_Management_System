@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Whatshap</title>
+    <link href="/style.css" rel="stylesheet">
+</head>
+<body>
+    <h2>All Chats</h2>
+    <% for(chat of chats) { %>
+    <div class="chat">
+        <p>From: <%= chat.from %></p>
+        <div class="message">
+            <p><%= chat.message %></p>
+            <form method="GET" action="/chats/<%= chat.id %>/edit">
+                <button class="edit" style="width: 100px;">Edit Message</button>
+            </form>
+            <br>
+            <form method="GET" action="chats/<%= chat._id %>">
+                <button class="show" style="width: 90px;">Show Chat</button>
+            </form>
+        </div>
+        <p>Raceived by <%= chat.to %></p>
+        <form method="GET" action="chats/new">
+            <button>New Chat</button>
+        </form>
+        <br>
+        <form method="POST" action="chats/<%= chat._id %>?_method=DELETE">
+            <button class="delete" style="width: 90px;">Delete Chat</button>
+        </form>
+        <hr>
+        <br>
+        <p><%= chat.created_at %></p>
+    </div>
+    <% } %>
+    
+</body>
+</html>
