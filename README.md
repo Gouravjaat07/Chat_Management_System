@@ -55,7 +55,7 @@ Designed to be scalable, reusable, and easy to integrate
 
 🤝 Contribution
 
-- Feel free to fork this repo, create a new branch, and submit pull requests.
+- Feel free to fork this repos, create a new branch, and submit pull requests.
 
 📜 License
 
