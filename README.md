@@ -7,13 +7,13 @@
 
 - Implements CRUD operations:
 
-  *✨ Create new chat messages
+  ✨ Create new chat messages
   
-  *👀 Read all or specific chats
+  👀 Read all or specific chats
 
-  *✏️ Update existing chat messages
+  ✏️ Update existing chat messages
 
-  *🗑️ Delete chats
+  🗑️ Delete chats
 
 Designed to be scalable, reusable, and easy to integrate
 
