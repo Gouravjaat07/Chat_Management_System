@@ -33,13 +33,13 @@ Designed to be scalable, reusable, and easy to integrate
 
 🛠️ Tech Stack
 
-  *⚙️ Backend: Node.js, Express.js
+  ⚙️ Backend: Node.js, Express.js
 
-  *🗃️ Database: MongoDB (Mongoose)
+  🗃️ Database: MongoDB (Mongoose)
 
-  *🧪 Testing Tools: Hoppscotch
+  🧪 Testing Tools: Hoppscotch
 
-  *🏗️ Architecture: REST API
+  🏗️ Architecture: REST API
 
 📂 API Endpoints
 
