@@ -3,7 +3,7 @@
 
 📌 Overview
 
-  A Chat Management System using RESTful APIs and CRUD Operations
+  A Chat Management System using RESTful APIs and CRUD Operations.
 
 - Implements CRUD operations:
 
